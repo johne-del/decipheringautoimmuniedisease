@@ -694,6 +694,8 @@ header.scrolled {
 
 .hero p {
     font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2rem;
     color: #fff;
     position: relative;

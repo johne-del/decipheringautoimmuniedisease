@@ -1,0 +1,12 @@
+{
+    "name": "deciphering-autoimmune",
+    "version": "1.0.0",
+    "description": "Plain-English educational resource on autoimmune diseases.",
+    "scripts": {
+        "start": "npx serve .",
+        "deploy": "npx vercel --prod"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

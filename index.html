@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deciphering Autoimmune | Plain-English Guide to Autoimmune Conditions</title>
+    <meta name="description" content="Clear, plain-English information on 37+ autoimmune conditions: symptoms, causes, diagnosis, treatment and living well. Educational only, not medical advice.">
+    <link rel="canonical" href="https://www.decipheringautoimmune.com/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Deciphering Autoimmune">
+    <meta property="og:url" content="https://www.decipheringautoimmune.com/">
+    <meta property="og:title" content="Deciphering Autoimmune | Plain-English Guide to Autoimmune Conditions">
+    <meta property="og:description" content="Clear, plain-English information on 37+ autoimmune conditions: symptoms, causes, diagnosis, treatment and living well. Educational only, not medical advice.">
+    <meta property="og:image" content="https://www.decipheringautoimmune.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deciphering Autoimmune | Plain-English Guide to Autoimmune Conditions">
+    <meta name="twitter:description" content="Clear, plain-English information on 37+ autoimmune conditions: symptoms, causes, diagnosis, treatment and living well. Educational only, not medical advice.">
+    <meta name="twitter:image" content="https://www.decipheringautoimmune.com/og-image.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="enhanced-search.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; display: flex; align-items: center;">
+                    <p class="site-name">deciphering <span>autoimmune</span></p>
+                </a>
+            </div>
+            <div class="search-container">
+                <label for="search-input" class="sr-only">Search conditions, symptoms, or categories</label>
+                <input type="text" id="search-input" class="search-bar"
+                    placeholder="Search conditions, symptoms, or categories…" role="combobox" aria-autocomplete="list"
+                    aria-expanded="false" aria-controls="search-suggestions" autocomplete="off">
+                <button class="search-clear" aria-label="Clear search" style="display: none;">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class="search-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="search-suggestions" class="search-dropdown" role="listbox" hidden></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conditions.html">Conditions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <!-- Theme Switch -->
+            <div style="width: 70px; height: 30px; margin-left: 1rem;">
+                <label class="theme-switch" for="theme-toggle" aria-label="Toggle theme">
+                    <input type="checkbox" id="theme-toggle" class="theme-switch__checkbox" />
+                    <div class="theme-switch__container">
+                        <div class="theme-switch__clouds"></div>
+                        <div class="theme-switch__stars-container">
+                            <svg width="44" height="9" viewBox="0 0 44 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="6.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="8.5" cy="1.5" r="0.5" fill="#fff"></circle>
+                                <circle cx="16" cy="3" r="1" fill="#fff"></circle>
+                                <circle cx="22.5" cy="7.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="29.5" cy="3.5" r="1" fill="#fff"></circle>
+                                <circle cx="36" cy="1" r="0.5" fill="#fff"></circle>
+                                <circle cx="41.5" cy="6.5" r="1" fill="#fff"></circle>
+                            </svg>
+                        </div>
+                        <div class="theme-switch__circle-container">
+                            <div class="theme-switch__sun-moon-container">
+                                <div class="theme-switch__moon">
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <!-- Hamburger Menu -->
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="content-container">
+            <h1>Understanding Autoimmune Diseases</h1>
+            <p>Your trusted resource for reliable information on symptoms, diagnosis, and management of autoimmune
+                conditions.</p>
+
+        </div>
+    </section>
+
+    <!-- Browse by Category -->
+    <section class="browse-section" id="resources">
+        <div class="grid-container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="musculoskeletal">
+                    <div class="category-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Musculoskeletal</h3>
+                    <p>Joints, bones, and muscles</p>
+                </div>
+                <div class="category-card" data-category="gastrointestinal">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gastrointestinal</h3>
+                    <p>The digestive system</p>
+                </div>
+                <div class="category-card" data-category="neurological">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neurological</h3>
+                    <p>The nervous system</p>
+                </div>
+                <div class="category-card" data-category="dermatological">
+                    <div class="category-icon">
+                        <i class="fas fa-allergies"></i>
+                    </div>
+                    <h3>Dermatological</h3>
+                    <p>The skin</p>
+                </div>
+                <div class="category-card" data-category="cardiovascular">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Cardiovascular</h3>
+                    <p>The heart and blood vessels</p>
+                </div>
+                <div class="category-card" data-category="ocular">
+                    <div class="category-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Ocular</h3>
+                    <p>The eyes</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <button id="view-all-cats-btn" class="view-all-btn">View all Categories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Conditions -->
+    <section class="featured-section" id="conditions">
+        <div class="grid-container">
+            <h2 class="section-title">Featured Conditions</h2>
+            <div class="condition-grid" id="condition-grid">
+                <!-- Content will be populated dynamically via JavaScript -->
+            </div>
+            <div id="no-results" class="no-results" style="display: none;">
+                <i class="fas fa-search fa-3x" style="color: var(--accent-grey); margin-bottom: 1rem;"></i>
+                <h3>No conditions found</h3>
+                <p>Try adjusting your search terms or browse by category.</p>
+            </div>
+            <div class="symptom-cloud">
+                <h3 style="margin-bottom: 1.5rem;">Common Symptoms</h3>
+                <div id="symptom-tags">
+                    <!-- Tags populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Conditions</h3>
+                    <ul class="footer-links">
+                        <li><a href="conditions.html?q=Rheumatoid%20Arthritis">Rheumatoid Arthritis</a></li>
+                        <li><a href="conditions.html?q=Lupus">Lupus</a></li>
+                        <li><a href="conditions.html?q=Multiple%20Sclerosis">Multiple Sclerosis</a></li>
+                        <li><a href="conditions.html?q=Crohn">Crohn's Disease</a></li>
+                        <li><a href="conditions.html?q=Psoriasis">Psoriasis</a></li>
+                        <li><a href="conditions.html">All conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="resources.html#patient-advocacy">Patient Advocacy</a></li>
+                        <li><a href="resources.html#financial-aid">Financial Aid</a></li>
+                        <li><a href="resources.html#mental-health">Mental Health</a></li>
+                        <li><a href="resources.html#clinical-trials">Clinical Trials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Our Mission</a></li>
+                        <li><a href="about.html#disclaimer">Medical Disclaimer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 deciphering autoimmune. All rights reserved. Produced by Gwop.
+                    <a href="https://medium.com/@johnegemole_1671" target="_blank" rel="noopener noreferrer"
+                        aria-label="Medium Profile"
+                        style="display: inline-flex; align-items: center; margin-left: 0.5rem; vertical-align: middle;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            style="opacity: 0.7; transition: opacity 0.2s;">
+                            <path
+                                d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disease Detail Modal -->
+    <div class="modal-overlay" id="disease-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modal-title">Condition Name</h2>
+                <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- 1. One-sentence Summary -->
+                <div class="modal-section"
+                    style="background-color: var(--off-white); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--gasoline-green);">
+                    <p id="modal-summary"
+                        style="margin-bottom: 0; font-weight: 500; font-size: 1.1rem; color: var(--dark-charcoal);"></p>
+                </div>
+
+                <!-- 2. What Is This Condition? -->
+                <div class="modal-section">
+                    <h3>What Is This Condition?</h3>
+                    <div id="modal-description"></div>
+                </div>
+
+                <!-- 3. Common Symptoms -->
+                <div class="modal-section">
+                    <h3>Common Symptoms</h3>
+                    <ul id="modal-symptoms" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 4. What Causes It? -->
+                <div class="modal-section">
+                    <h3>What Causes It?</h3>
+                    <div id="modal-causes"></div>
+                </div>
+
+                <!-- 6. How Is It Diagnosed? -->
+                <div class="modal-section">
+                    <h3>How Is It Diagnosed?</h3>
+                    <ul id="modal-diagnosis" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 7. Treatment & Management -->
+                <div class="modal-section">
+                    <h3>Treatment & Management</h3>
+                    <div id="modal-treatment"></div>
+                </div>
+
+                <!-- 8. Living With the Condition -->
+                <div class="modal-section">
+                    <h3>Living With the Condition</h3>
+                    <div id="modal-living"></div>
+                </div>
+
+                <!-- 9. When to Seek Medical Help -->
+                <div class="modal-section">
+                    <h3>When to Seek Medical Help</h3>
+                    <div id="modal-help" class="medical-callout medical-callout--warning">
+                    </div>
+                </div>
+
+                <!-- 10. Related Conditions -->
+                <div class="modal-section">
+                    <h3>Related Autoimmune Conditions</h3>
+                    <ul id="modal-related" style="padding-left: 1.5rem;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

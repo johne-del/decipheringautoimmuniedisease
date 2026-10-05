@@ -1990,3 +1990,85 @@ header {
     color: #a0aec0;
     border-top-color: #4a5568;
 }
+
+
+/* Glossary and guide pages */
+.glossary-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.glossary-jump a {
+    display: inline-block;
+    min-width: 2.25rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--gasoline-green);
+}
+
+.glossary-jump a:hover,
+.glossary-jump a:focus {
+    background: var(--gasoline-green);
+    color: #fff;
+}
+
+[data-theme="dark"] .glossary-jump a:hover,
+[data-theme="dark"] .glossary-jump a:focus {
+    color: #1a202c;
+}
+
+.glossary-letter {
+    margin: 2.5rem 0 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.5rem;
+    color: var(--gasoline-green);
+    scroll-margin-top: 6rem;
+}
+
+.glossary-list dt {
+    margin-top: 1.25rem;
+    font-weight: 700;
+    color: var(--dark-charcoal);
+}
+
+.glossary-list dd {
+    margin: 0.25rem 0 0;
+    line-height: 1.7;
+}
+
+.symptom-group h2 {
+    scroll-margin-top: 6rem;
+}
+
+.guide-condition {
+    margin: 1.75rem 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.guide-condition a {
+    color: var(--gasoline-green);
+    text-decoration: none;
+}
+
+.guide-condition a:hover {
+    text-decoration: underline;
+}
+
+.guide-list {
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+    line-height: 1.7;
+}
+
+.guide-list li {
+    margin-bottom: 0.35rem;
+}

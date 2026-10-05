@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms Guide: Autoimmune Symptoms by Body System | Deciphering Autoimmune</title>
+    <meta name="description" content="Symptoms of 37 autoimmune conditions, grouped by body system, with links to each condition&#x27;s full explanation.">
+    <link rel="canonical" href="https://www.decipheringautoimmune.com/symptoms-guide">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Deciphering Autoimmune">
+    <meta property="og:url" content="https://www.decipheringautoimmune.com/symptoms-guide">
+    <meta property="og:title" content="Symptoms Guide: Autoimmune Symptoms by Body System | Deciphering Autoimmune">
+    <meta property="og:description" content="Symptoms of 37 autoimmune conditions, grouped by body system, with links to each condition&#x27;s full explanation.">
+    <meta property="og:image" content="https://www.decipheringautoimmune.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Symptoms Guide: Autoimmune Symptoms by Body System | Deciphering Autoimmune">
+    <meta name="twitter:description" content="Symptoms of 37 autoimmune conditions, grouped by body system, with links to each condition&#x27;s full explanation.">
+    <meta name="twitter:image" content="https://www.decipheringautoimmune.com/og-image.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="enhanced-search.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; display: flex; align-items: center;">
+                    <p class="site-name">deciphering <span>autoimmune</span></p>
+                </a>
+            </div>
+            <div class="search-container">
+                <label for="search-input" class="sr-only">Search conditions, symptoms, or categories</label>
+                <input type="text" id="search-input" class="search-bar"
+                    placeholder="Search conditions, symptoms, or categories…" role="combobox" aria-autocomplete="list"
+                    aria-expanded="false" aria-controls="search-suggestions" autocomplete="off">
+                <button class="search-clear" aria-label="Clear search" style="display: none;">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class="search-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="search-suggestions" class="search-dropdown" role="listbox" hidden></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conditions.html">Conditions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html" style="color: var(--gasoline-green);">About</a></li>
+            </ul>
+            <!-- Theme Switch -->
+            <div style="width: 70px; height: 30px; margin-left: 1rem;">
+                <label class="theme-switch" for="theme-toggle" aria-label="Toggle theme">
+                    <input type="checkbox" id="theme-toggle" class="theme-switch__checkbox" />
+                    <div class="theme-switch__container">
+                        <div class="theme-switch__clouds"></div>
+                        <div class="theme-switch__stars-container">
+                            <svg width="44" height="9" viewBox="0 0 44 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="6.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="8.5" cy="1.5" r="0.5" fill="#fff"></circle>
+                                <circle cx="16" cy="3" r="1" fill="#fff"></circle>
+                                <circle cx="22.5" cy="7.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="29.5" cy="3.5" r="1" fill="#fff"></circle>
+                                <circle cx="36" cy="1" r="0.5" fill="#fff"></circle>
+                                <circle cx="41.5" cy="6.5" r="1" fill="#fff"></circle>
+                            </svg>
+                        </div>
+                        <div class="theme-switch__circle-container">
+                            <div class="theme-switch__sun-moon-container">
+                                <div class="theme-switch__moon">
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Symptoms Guide</h1>
+            <p>Symptoms of each condition, grouped by the part of the body most affected.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Symptoms Guide Content -->
+    <section class="about-page-content">
+        <div class="content-container">
+            <div class="about-intro">
+                <h2>Symptoms by body system</h2>
+                <p>This guide lists the symptoms described on each condition page, grouped by the part of the body most affected. Select a condition name to read the full explanation.</p>
+                <p>Many symptoms, such as fatigue, joint pain or a rash, appear in several conditions and in everyday illnesses. Having a symptom listed here does not mean you have that condition. Only a doctor can diagnose you.</p>
+                <nav aria-label="Jump to body system">
+                    <ul class="glossary-jump">
+                    <li><a href="#musculoskeletal">Musculoskeletal</a></li>
+                    <li><a href="#gastrointestinal">Gastrointestinal</a></li>
+                    <li><a href="#neurological">Neurological</a></li>
+                    <li><a href="#dermatological">Dermatological</a></li>
+                    <li><a href="#cardiovascular">Cardiovascular</a></li>
+                    <li><a href="#ocular">Ocular</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="callout-box disclaimer-box">
+                <div class="callout-content">
+                    <h3><i class="fas fa-info-circle" style="margin-right: 0.5rem; color: #e53e3e;"></i>When to get urgent help</h3>
+                    <p>Call 999 (UK) or your local emergency number, or go to A&amp;E, if you have sudden loss of vision, signs of a stroke (face drooping, arm weakness or slurred speech), chest pain, or severe difficulty breathing.</p>
+                    <p>For symptoms that worry you but are not an emergency, contact your GP or call NHS 111 (UK).</p>
+                </div>
+            </div>
+
+            <div class="about-section-block symptom-group">
+                <h2 id="musculoskeletal">Musculoskeletal</h2>
+                <p>Joints, bones and muscles.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Rheumatoid%20Arthritis">Rheumatoid Arthritis</a></h3>
+                <ul class="guide-list">
+                    <li>Tender, warm, swollen joints</li>
+                    <li>Joint stiffness that is usually worse in the mornings and after inactivity</li>
+                    <li>Fatigue, fever and loss of appetite</li>
+                    <li>Issues affecting smaller joints first (fingers, toes)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Ankylosing%20Spondylitis">Ankylosing Spondylitis</a></h3>
+                <ul class="guide-list">
+                    <li>Pain and stiffness in the lower back and hips</li>
+                    <li>Pain that worsens after inactivity and improves with movement</li>
+                    <li>Neck pain and fatigue</li>
+                    <li>Difficulty taking deep breaths if ribs are involved</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Psoriatic%20Arthritis">Psoriatic Arthritis</a></h3>
+                <ul class="guide-list">
+                    <li>Swollen fingers and toes (dactylitis)</li>
+                    <li>Foot pain, especially at the heel or sole</li>
+                    <li>Lower back pain</li>
+                    <li>Nail changes (pitting or separation)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Systemic%20Lupus%20Erythematosus%20%28Lupus%29">Systemic Lupus Erythematosus (Lupus)</a></h3>
+                <ul class="guide-list">
+                    <li>Fatigue</li>
+                    <li>Joint pain, stiffness and swelling</li>
+                    <li>Butterfly-shaped rash on the face</li>
+                    <li>Skin lesions that appear or worsen with sun exposure</li>
+                    <li>Fingers turning white or blue when cold (Raynaud&#x27;s phenomenon)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Sj%C3%B6gren%E2%80%99s%20Syndrome">Sjögren’s Syndrome</a></h3>
+                <ul class="guide-list">
+                    <li>Dry eyes (feeling like sand is in them)</li>
+                    <li>Dry mouth (cottonmouth)</li>
+                    <li>Joint pain, swelling and stiffness</li>
+                    <li>Swollen salivary glands</li>
+                    <li>Prolonged fatigue</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Polymyositis">Polymyositis</a></h3>
+                <ul class="guide-list">
+                    <li>Muscle weakness (shoulders, hips, thighs)</li>
+                    <li>Fatigue</li>
+                    <li>Difficulty swallowing</li>
+                    <li>Pain in joints</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Dermatomyositis">Dermatomyositis</a></h3>
+                <ul class="guide-list">
+                    <li>Skin rash (violet or red) on face, eyelids, knuckles</li>
+                    <li>Progressive muscle weakness (hips, thighs, shoulders)</li>
+                    <li>Difficulty swallowing</li>
+                    <li>Fatigue</li>
+                </ul>
+            </div>
+            <div class="about-section-block symptom-group">
+                <h2 id="gastrointestinal">Gastrointestinal</h2>
+                <p>The digestive system, including the liver.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Celiac%20Disease">Celiac Disease</a></h3>
+                <ul class="guide-list">
+                    <li>Diarrhea</li>
+                    <li>Fatigue</li>
+                    <li>Weight loss</li>
+                    <li>Bloating and gas</li>
+                    <li>Abdominal pain</li>
+                    <li>Nausea and vomiting</li>
+                    <li>Constipation</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Crohn%27s%20Disease">Crohn&#x27;s Disease</a></h3>
+                <ul class="guide-list">
+                    <li>Diarrhea</li>
+                    <li>Fever</li>
+                    <li>Fatigue</li>
+                    <li>Abdominal pain and cramping</li>
+                    <li>Blood in your stool</li>
+                    <li>Mouth sores</li>
+                    <li>Reduced appetite and weight loss</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Ulcerative%20Colitis">Ulcerative Colitis</a></h3>
+                <ul class="guide-list">
+                    <li>Diarrhea, often with blood or pus</li>
+                    <li>Abdominal pain and cramping</li>
+                    <li>Rectal pain</li>
+                    <li>Rectal bleeding</li>
+                    <li>Urgency to defecate</li>
+                    <li>Inability to defecate despite urgency</li>
+                    <li>Weight loss</li>
+                    <li>Fatigue</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Autoimmune%20Hepatitis">Autoimmune Hepatitis</a></h3>
+                <ul class="guide-list">
+                    <li>Fatigue</li>
+                    <li>Abdominal discomfort</li>
+                    <li>Joint pain</li>
+                    <li>Itching (pruritus)</li>
+                    <li>Yellowing of the skin and whites of the eyes (jaundice)</li>
+                    <li>Enlarged liver (hepatomegaly)</li>
+                    <li>Abnormal blood vessels on the skin (spider angiomas)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Primary%20Biliary%20Cholangitis">Primary Biliary Cholangitis</a></h3>
+                <ul class="guide-list">
+                    <li>Fatigue</li>
+                    <li>Itchy skin</li>
+                    <li>Dry eyes and mouth</li>
+                    <li>Pain in the upper right abdomen</li>
+                    <li>Swelling of the feet and ankles</li>
+                    <li>Darkening of the skin (hyperpigmentation)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Primary%20Sclerosing%20Cholangitis">Primary Sclerosing Cholangitis</a></h3>
+                <ul class="guide-list">
+                    <li>Fatigue</li>
+                    <li>Itching</li>
+                    <li>Jaundice</li>
+                    <li>Abdominal pain</li>
+                    <li>Fevers and chills</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Autoimmune%20Gastritis">Autoimmune Gastritis</a></h3>
+                <ul class="guide-list">
+                    <li>Anemia symptoms (fatigue, weakness, pale skin)</li>
+                    <li>Numbness or tingling in hands and feet</li>
+                    <li>Feeling full soon after starting to eat</li>
+                    <li>Nausea and vomiting</li>
+                </ul>
+            </div>
+            <div class="about-section-block symptom-group">
+                <h2 id="neurological">Neurological</h2>
+                <p>The brain, spinal cord and nerves.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Multiple%20Sclerosis">Multiple Sclerosis</a></h3>
+                <ul class="guide-list">
+                    <li>Numbness or weakness in one or more limbs</li>
+                    <li>Electric-shock sensations that occur with certain neck movements</li>
+                    <li>Tremor, lack of coordination or unsteady gait</li>
+                    <li>Vision problems</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Myasthenia%20Gravis">Myasthenia Gravis</a></h3>
+                <ul class="guide-list">
+                    <li>Drooping of one or both eyelids (ptosis)</li>
+                    <li>Double vision (diplopia)</li>
+                    <li>Impaired speaking (dysarthria)</li>
+                    <li>Difficulty swallowing</li>
+                    <li>Weakness in arms, legs, neck and fingers</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Guillain-Barr%C3%A9%20Syndrome">Guillain-Barré Syndrome</a></h3>
+                <ul class="guide-list">
+                    <li>Prickling, pins and needles sensations in your fingers, toes, ankles or wrists</li>
+                    <li>Weakness in your legs that spreads to your upper body</li>
+                    <li>Unsteady walking or inability to walk</li>
+                    <li>Difficulty with facial movements, including speaking, chewing or swallowing</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Chronic%20Inflammatory%20Demyelinating%20Polyneuropathy%20%28CIDP%29">Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)</a></h3>
+                <ul class="guide-list">
+                    <li>Tingling or numbness (beginning in toes and fingers)</li>
+                    <li>Weakness of the arms and legs</li>
+                    <li>Loss of deep tendon reflexes (areflexia)</li>
+                    <li>Fatigue</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Neuromyelitis%20Optica%20%28NMO%29">Neuromyelitis Optica (NMO)</a></h3>
+                <ul class="guide-list">
+                    <li>Pain in the eye</li>
+                    <li>Vision loss</li>
+                    <li>Weakness or numbness in the arms and legs</li>
+                    <li>Bladder and bowel control problems</li>
+                    <li>Uncontrollable vomiting and hiccups</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Autoimmune%20Encephalitis">Autoimmune Encephalitis</a></h3>
+                <ul class="guide-list">
+                    <li>Memory deficits</li>
+                    <li>Seizures</li>
+                    <li>Psychosis or behavioral changes</li>
+                    <li>Impaired speech</li>
+                    <li>Balance issues</li>
+                </ul>
+            </div>
+            <div class="about-section-block symptom-group">
+                <h2 id="dermatological">Dermatological</h2>
+                <p>The skin, hair and nails.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Psoriasis">Psoriasis</a></h3>
+                <ul class="guide-list">
+                    <li>Red patches of skin covered with thick, silvery scales</li>
+                    <li>Dry, cracked skin that may bleed or itch</li>
+                    <li>Itching, burning or soreness</li>
+                    <li>Thickened, pitted or ridged nails</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Vitiligo">Vitiligo</a></h3>
+                <ul class="guide-list">
+                    <li>Patchy loss of skin color</li>
+                    <li>Premature whitening or graying of the hair on your scalp, eyelashes, eyebrows or beard</li>
+                    <li>Loss of color in the tissues that line the inside of the mouth and nose (mucous membranes)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Alopecia%20Areata">Alopecia Areata</a></h3>
+                <ul class="guide-list">
+                    <li>Small round patches of hair loss on the scalp</li>
+                    <li>Exclamation mark hairs (hairs that get narrower at the bottom)</li>
+                    <li>Pitting (tiny dents) in fingernails or toenails</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Pemphigus%20Vulgaris">Pemphigus Vulgaris</a></h3>
+                <ul class="guide-list">
+                    <li>Painful blisters that start in the mouth or skin areas</li>
+                    <li>Skin blisters that burst easily, leaving raw sores</li>
+                    <li>Crusting and oozing of sores</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Bullous%20Pemphigoid">Bullous Pemphigoid</a></h3>
+                <ul class="guide-list">
+                    <li>Itchy skin (pruritus) which can be severe</li>
+                    <li>Large, tense blisters that don&#x27;t rupture easily</li>
+                    <li>Reddish or hive-like rash before blisters appear</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Cutaneous%20Lupus">Cutaneous Lupus</a></h3>
+                <ul class="guide-list">
+                    <li>Red, scaly rash (often in sun-exposed areas)</li>
+                    <li>Coin-shaped (discoid) lesions</li>
+                    <li>Hair loss (alopecia)</li>
+                    <li>Sun sensitivity</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Lichen%20Planus">Lichen Planus</a></h3>
+                <ul class="guide-list">
+                    <li>Purplish, flat-topped bumps, most often on the inner forearm, wrist or ankle</li>
+                    <li>Itching</li>
+                    <li>Lacy white patches in the mouth</li>
+                    <li>Hair loss or nail damage</li>
+                </ul>
+            </div>
+            <div class="about-section-block symptom-group">
+                <h2 id="cardiovascular">Cardiovascular</h2>
+                <p>The heart and blood vessels.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Giant%20Cell%20Arteritis">Giant Cell Arteritis</a></h3>
+                <ul class="guide-list">
+                    <li>Persistent, severe head pain, usually in your temple area</li>
+                    <li>Scalp tenderness</li>
+                    <li>Jaw pain when you chew or open your mouth wide</li>
+                    <li>Fever and fatigue</li>
+                    <li>Double vision or sudden permanent loss of vision in one eye</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Antiphospholipid%20Syndrome">Antiphospholipid Syndrome</a></h3>
+                <ul class="guide-list">
+                    <li>Blood clots in legs (DVT) or lungs (PE)</li>
+                    <li>Repeated miscarriages or stillbirths</li>
+                    <li>Stroke</li>
+                    <li>Transient ischemic attack (TIA)</li>
+                    <li>Red rash with a lacy, net-like pattern (livedo reticularis)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Takayasu%20Arteritis">Takayasu Arteritis</a></h3>
+                <ul class="guide-list">
+                    <li>Weak or absent pulse in the arms</li>
+                    <li>Dizziness or lightheadedness</li>
+                    <li>Chest pain</li>
+                    <li>High blood pressure</li>
+                    <li>Fatigue</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Polyarteritis%20Nodosa%20%28PAN%29">Polyarteritis Nodosa (PAN)</a></h3>
+                <ul class="guide-list">
+                    <li>Fatigue and fever</li>
+                    <li>Muscle aches and joint pain</li>
+                    <li>Abdominal pain</li>
+                    <li>Numbness or tingling in extremities</li>
+                    <li>Skin sores or tender lumps</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Vasculitis%20%28General%29">Vasculitis (General)</a></h3>
+                <ul class="guide-list">
+                    <li>Fever</li>
+                    <li>Headache</li>
+                    <li>Fatigue</li>
+                    <li>Weight loss</li>
+                    <li>General aches and pains</li>
+                    <li>Specifically depends on affected organ (e.g., spots on skin, shortness of breath)</li>
+                </ul>
+            </div>
+            <div class="about-section-block symptom-group">
+                <h2 id="ocular">Ocular</h2>
+                <p>The eyes.</p>
+                <h3 class="guide-condition"><a href="conditions.html?q=Uveitis">Uveitis</a></h3>
+                <ul class="guide-list">
+                    <li>Eye redness</li>
+                    <li>Eye pain</li>
+                    <li>Light sensitivity</li>
+                    <li>Blurred vision</li>
+                    <li>Dark, floating spots in your field of vision (floaters)</li>
+                    <li>Decreased vision</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Optic%20Neuritis">Optic Neuritis</a></h3>
+                <ul class="guide-list">
+                    <li>Pain that worsens with eye movement</li>
+                    <li>Temporary vision loss in one eye</li>
+                    <li>Loss of color vision (colors appear washed out)</li>
+                    <li>Flashing lights (photopsia)</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Autoimmune%20Retinopathy">Autoimmune Retinopathy</a></h3>
+                <ul class="guide-list">
+                    <li>Night blindness</li>
+                    <li>Sensitivity to light (photophobia)</li>
+                    <li>Shimmering, dancing lights in vision (photopsias)</li>
+                    <li>Loss of peripheral or central vision</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Sj%C3%B6gren%E2%80%99s%20Syndrome%20%28Ocular%29">Sjögren’s Syndrome (Ocular)</a></h3>
+                <ul class="guide-list">
+                    <li>Gritty, burning, or stinging sensation in the eyes</li>
+                    <li>Blurred vision</li>
+                    <li>Redness</li>
+                    <li>Sensitivity to light</li>
+                    <li>Stringy mucous around the eyes</li>
+                </ul>
+                <h3 class="guide-condition"><a href="conditions.html?q=Ocular%20Cicatricial%20Pemphigoid">Ocular Cicatricial Pemphigoid</a></h3>
+                <ul class="guide-list">
+                    <li>Red eye (conjunctivitis) that doesn&#x27;t heal</li>
+                    <li>Feeling of something in the eye</li>
+                    <li>Tearing</li>
+                    <li>Eyelashes turning inward</li>
+                    <li>Symblepharon (eyelid sticking to the eyeball)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Conditions</h3>
+                    <ul class="footer-links">
+                        <li><a href="conditions.html?q=Rheumatoid%20Arthritis">Rheumatoid Arthritis</a></li>
+                        <li><a href="conditions.html?q=Lupus">Lupus</a></li>
+                        <li><a href="conditions.html?q=Multiple%20Sclerosis">Multiple Sclerosis</a></li>
+                        <li><a href="conditions.html?q=Crohn">Crohn's Disease</a></li>
+                        <li><a href="conditions.html?q=Psoriasis">Psoriasis</a></li>
+                        <li><a href="conditions.html">All conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="symptoms-guide.html">Symptoms Guide</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                        <li><a href="resources.html#patient-advocacy">Patient Advocacy</a></li>
+                        <li><a href="resources.html#financial-aid">Financial Aid</a></li>
+                        <li><a href="resources.html#mental-health">Mental Health</a></li>
+                        <li><a href="resources.html#clinical-trials">Clinical Trials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Our Mission</a></li>
+                        <li><a href="editorial-policy.html">Editorial Policy</a></li>
+                        <li><a href="about.html#disclaimer">Medical Disclaimer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 deciphering autoimmune. All rights reserved. Produced by Gwop.
+                    <a href="https://medium.com/@johnegemole_1671" target="_blank" rel="noopener noreferrer"
+                        aria-label="Medium Profile"
+                        style="display: inline-flex; align-items: center; margin-left: 0.5rem; vertical-align: middle;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            style="opacity: 0.7; transition: opacity 0.2s;">
+                            <path
+                                d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disease Detail Modal -->
+    <div class="modal-overlay" id="disease-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modal-title">Condition Name</h2>
+                <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- 1. One-sentence Summary -->
+                <div class="modal-section"
+                    style="background-color: var(--off-white); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--gasoline-green);">
+                    <p id="modal-summary"
+                        style="margin-bottom: 0; font-weight: 500; font-size: 1.1rem; color: var(--dark-charcoal);"></p>
+                </div>
+
+                <!-- 2. What Is This Condition? -->
+                <div class="modal-section">
+                    <h3>What Is This Condition?</h3>
+                    <div id="modal-description"></div>
+                </div>
+
+                <!-- 3. Common Symptoms -->
+                <div class="modal-section">
+                    <h3>Common Symptoms</h3>
+                    <ul id="modal-symptoms" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 4. What Causes It? -->
+                <div class="modal-section">
+                    <h3>What Causes It?</h3>
+                    <div id="modal-causes"></div>
+                </div>
+
+                <!-- 6. How Is It Diagnosed? -->
+                <div class="modal-section">
+                    <h3>How Is It Diagnosed?</h3>
+                    <ul id="modal-diagnosis" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 7. Treatment & Management -->
+                <div class="modal-section">
+                    <h3>Treatment & Management</h3>
+                    <div id="modal-treatment"></div>
+                </div>
+
+                <!-- 8. Living With the Condition -->
+                <div class="modal-section">
+                    <h3>Living With the Condition</h3>
+                    <div id="modal-living"></div>
+                </div>
+
+                <!-- 9. When to Seek Medical Help -->
+                <div class="modal-section">
+                    <h3>When to Seek Medical Help</h3>
+                    <div id="modal-help" class="medical-callout medical-callout--warning">
+                    </div>
+                </div>
+
+                <!-- 10. Related Conditions -->
+                <div class="modal-section">
+                    <h3>Related Autoimmune Conditions</h3>
+                    <ul id="modal-related" style="padding-left: 1.5rem;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary of Autoimmune Terms in Plain English | Deciphering Autoimmune</title>
+    <meta name="description" content="Short, plain-English definitions of common autoimmune and medical terms, from antibodies and flares to biologics, DMARDs and remission.">
+    <link rel="canonical" href="https://www.decipheringautoimmune.com/glossary">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Deciphering Autoimmune">
+    <meta property="og:url" content="https://www.decipheringautoimmune.com/glossary">
+    <meta property="og:title" content="Glossary of Autoimmune Terms in Plain English | Deciphering Autoimmune">
+    <meta property="og:description" content="Short, plain-English definitions of common autoimmune and medical terms, from antibodies and flares to biologics, DMARDs and remission.">
+    <meta property="og:image" content="https://www.decipheringautoimmune.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Glossary of Autoimmune Terms in Plain English | Deciphering Autoimmune">
+    <meta name="twitter:description" content="Short, plain-English definitions of common autoimmune and medical terms, from antibodies and flares to biologics, DMARDs and remission.">
+    <meta name="twitter:image" content="https://www.decipheringautoimmune.com/og-image.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="enhanced-search.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; display: flex; align-items: center;">
+                    <p class="site-name">deciphering <span>autoimmune</span></p>
+                </a>
+            </div>
+            <div class="search-container">
+                <label for="search-input" class="sr-only">Search conditions, symptoms, or categories</label>
+                <input type="text" id="search-input" class="search-bar"
+                    placeholder="Search conditions, symptoms, or categories…" role="combobox" aria-autocomplete="list"
+                    aria-expanded="false" aria-controls="search-suggestions" autocomplete="off">
+                <button class="search-clear" aria-label="Clear search" style="display: none;">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class="search-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="search-suggestions" class="search-dropdown" role="listbox" hidden></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conditions.html">Conditions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html" style="color: var(--gasoline-green);">About</a></li>
+            </ul>
+            <!-- Theme Switch -->
+            <div style="width: 70px; height: 30px; margin-left: 1rem;">
+                <label class="theme-switch" for="theme-toggle" aria-label="Toggle theme">
+                    <input type="checkbox" id="theme-toggle" class="theme-switch__checkbox" />
+                    <div class="theme-switch__container">
+                        <div class="theme-switch__clouds"></div>
+                        <div class="theme-switch__stars-container">
+                            <svg width="44" height="9" viewBox="0 0 44 9" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="2.5" cy="6.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="8.5" cy="1.5" r="0.5" fill="#fff"></circle>
+                                <circle cx="16" cy="3" r="1" fill="#fff"></circle>
+                                <circle cx="22.5" cy="7.5" r="1.5" fill="#fff"></circle>
+                                <circle cx="29.5" cy="3.5" r="1" fill="#fff"></circle>
+                                <circle cx="36" cy="1" r="0.5" fill="#fff"></circle>
+                                <circle cx="41.5" cy="6.5" r="1" fill="#fff"></circle>
+                            </svg>
+                        </div>
+                        <div class="theme-switch__circle-container">
+                            <div class="theme-switch__sun-moon-container">
+                                <div class="theme-switch__moon">
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                    <span class="theme-switch__spot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Glossary of Autoimmune Terms</h1>
+            <p>Plain-English definitions of the medical words you are most likely to meet.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Glossary Content -->
+    <section class="about-page-content">
+        <div class="content-container">
+            <div class="about-intro">
+                <h2>Plain-English definitions</h2>
+                <p>Medical language can be confusing, especially after a new diagnosis. These are short, everyday explanations of terms you may hear from doctors or read on this site.</p>
+                <p>These definitions are general and for education only. Ask your doctor or specialist to explain how a term applies to you.</p>
+                <nav aria-label="Jump to letter">
+                    <ul class="glossary-jump">
+                    <li><a href="#letter-a">A</a></li>
+                    <li><a href="#letter-b">B</a></li>
+                    <li><a href="#letter-c">C</a></li>
+                    <li><a href="#letter-d">D</a></li>
+                    <li><a href="#letter-e">E</a></li>
+                    <li><a href="#letter-f">F</a></li>
+                    <li><a href="#letter-g">G</a></li>
+                    <li><a href="#letter-h">H</a></li>
+                    <li><a href="#letter-i">I</a></li>
+                    <li><a href="#letter-m">M</a></li>
+                    <li><a href="#letter-n">N</a></li>
+                    <li><a href="#letter-p">P</a></li>
+                    <li><a href="#letter-r">R</a></li>
+                    <li><a href="#letter-s">S</a></li>
+                    <li><a href="#letter-t">T</a></li>
+                    <li><a href="#letter-v">V</a></li>
+                    <li><a href="#letter-w">W</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="about-section-block">
+                <h2 class="glossary-letter" id="letter-a">A</h2>
+                <dl class="glossary-list">
+                    <dt>Acute</dt>
+                    <dd>Starting suddenly and usually lasting a short time. The opposite of chronic.</dd>
+                    <dt>Anti-CCP</dt>
+                    <dd>A blood test that looks for antibodies against cyclic citrullinated peptides. It is often used to help diagnose rheumatoid arthritis.</dd>
+                    <dt>Antibody</dt>
+                    <dd>A protein made by the immune system that recognises and attaches to a specific target, such as a germ. Antibodies normally help protect the body from infection.</dd>
+                    <dt>Antigen</dt>
+                    <dd>Any substance the immune system recognises as foreign, such as part of a virus or bacterium. In autoimmune disease, the immune system reacts to something that belongs to the body.</dd>
+                    <dt>Antinuclear antibody (ANA)</dt>
+                    <dd>An autoantibody that targets parts of the cell nucleus. An ANA blood test is often used when an autoimmune condition such as lupus is suspected, but it can also be positive in people who are healthy, so it cannot diagnose a condition on its own.</dd>
+                    <dt>Autoantibody</dt>
+                    <dd>An antibody that mistakenly targets the body&#x27;s own tissues instead of a foreign invader.</dd>
+                    <dt>Autoimmune disease</dt>
+                    <dd>A condition in which the immune system mistakenly attacks the body&#x27;s own healthy cells and tissues.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-b">B</h2>
+                <dl class="glossary-list">
+                    <dt>B cell</dt>
+                    <dd>A type of white blood cell that makes antibodies.</dd>
+                    <dt>Biologic</dt>
+                    <dd>A medicine made from living cells that is designed to block one specific part of the immune response, such as a particular inflammatory protein.</dd>
+                    <dt>Biomarker</dt>
+                    <dd>A measurable sign, usually found in blood or tissue, that can point to a condition or show how it is responding to treatment.</dd>
+                    <dt>Biopsy</dt>
+                    <dd>A small sample of tissue taken from the body and examined under a microscope.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-c">C</h2>
+                <dl class="glossary-list">
+                    <dt>C-reactive protein (CRP)</dt>
+                    <dd>A protein made by the liver that rises when there is inflammation in the body. A CRP blood test shows that inflammation is present but not what is causing it.</dd>
+                    <dt>Chronic</dt>
+                    <dd>Lasting for a long time, usually months or years, and often needing ongoing management.</dd>
+                    <dt>Corticosteroid</dt>
+                    <dd>A type of anti-inflammatory medicine, such as prednisolone, that calms immune activity. Doctors usually aim to use the lowest effective dose for the shortest time because long-term use can cause side effects.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-d">D</h2>
+                <dl class="glossary-list">
+                    <dt>Demyelination</dt>
+                    <dd>Damage to myelin, the protective coating around nerve fibres. It slows or blocks nerve signals and is a key feature of multiple sclerosis.</dd>
+                    <dt>DMARD</dt>
+                    <dd>Short for disease-modifying antirheumatic drug. These medicines aim to slow the progress of conditions such as rheumatoid arthritis, rather than only easing symptoms.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-e">E</h2>
+                <dl class="glossary-list">
+                    <dt>Erythrocyte sedimentation rate (ESR)</dt>
+                    <dd>A blood test that measures how quickly red blood cells settle in a tube. A faster rate can suggest inflammation, but it is not specific to any one condition.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-f">F</h2>
+                <dl class="glossary-list">
+                    <dt>Fatigue</dt>
+                    <dd>Ongoing tiredness or exhaustion that is not fixed by rest. It is one of the most common symptoms of autoimmune conditions.</dd>
+                    <dt>Flare</dt>
+                    <dd>A period when symptoms get worse or return after a calmer spell. Also called a flare-up.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-g">G</h2>
+                <dl class="glossary-list">
+                    <dt>Genetic predisposition</dt>
+                    <dd>An inherited tendency that raises the chance of developing a condition. It does not mean the condition is certain.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-h">H</h2>
+                <dl class="glossary-list">
+                    <dt>HLA</dt>
+                    <dd>Short for human leukocyte antigen. These molecules help the immune system tell the body&#x27;s own cells from foreign ones. Certain HLA types are linked with certain autoimmune conditions, for example HLA-B27 with ankylosing spondylitis.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-i">I</h2>
+                <dl class="glossary-list">
+                    <dt>Immune system</dt>
+                    <dd>The body&#x27;s defence network of cells, tissues and organs that fights infection and removes damaged cells.</dd>
+                    <dt>Immunosuppressant</dt>
+                    <dd>A medicine that reduces the activity of the immune system. It is used to control autoimmune conditions but can make infections more likely.</dd>
+                    <dt>Inflammation</dt>
+                    <dd>The body&#x27;s response to injury, infection or irritation, which can cause redness, warmth, swelling and pain. In autoimmune disease it can continue when it is not needed and damage healthy tissue.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-m">M</h2>
+                <dl class="glossary-list">
+                    <dt>Mucous membrane</dt>
+                    <dd>The moist lining of areas such as the mouth, nose, eyes and digestive tract.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-n">N</h2>
+                <dl class="glossary-list">
+                    <dt>Neuropathy</dt>
+                    <dd>Damage to or poor working of the nerves, which can cause numbness, tingling, weakness or pain.</dd>
+                    <dt>NSAID</dt>
+                    <dd>Short for non-steroidal anti-inflammatory drug, such as ibuprofen. NSAIDs ease pain and inflammation but do not change the course of the disease. They can have side effects, so ask a doctor or pharmacist whether they are suitable for you.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-p">P</h2>
+                <dl class="glossary-list">
+                    <dt>Prognosis</dt>
+                    <dd>The likely course or outcome of a condition.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-r">R</h2>
+                <dl class="glossary-list">
+                    <dt>Remission</dt>
+                    <dd>A period when symptoms are much reduced or have gone away. It does not always mean the condition has been cured.</dd>
+                    <dt>Rheumatoid factor</dt>
+                    <dd>An antibody found in the blood of many people with rheumatoid arthritis. It can also appear in other conditions and in some healthy people.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-s">S</h2>
+                <dl class="glossary-list">
+                    <dt>Specialist doctors</dt>
+                    <dd>Autoimmune conditions are often looked after by specialists. A rheumatologist treats joint and connective tissue conditions, a neurologist treats the nervous system, a dermatologist treats the skin, a gastroenterologist treats the digestive system and an ophthalmologist treats the eyes.</dd>
+                    <dt>Synovium</dt>
+                    <dd>The thin lining of the joints that makes the fluid which keeps them moving smoothly. It becomes inflamed in rheumatoid arthritis.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-t">T</h2>
+                <dl class="glossary-list">
+                    <dt>T cell</dt>
+                    <dd>A type of white blood cell that helps coordinate the immune response and can directly attack infected or abnormal cells.</dd>
+                    <dt>Trigger</dt>
+                    <dd>Something that may set off a condition or make symptoms worse, such as an infection or stress. Triggers differ from person to person and are not always identifiable.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-v">V</h2>
+                <dl class="glossary-list">
+                    <dt>Vasculitis</dt>
+                    <dd>Inflammation of the blood vessels. It can narrow, weaken or scar the vessel walls and reduce blood flow to organs.</dd>
+                </dl>
+                <h2 class="glossary-letter" id="letter-w">W</h2>
+                <dl class="glossary-list">
+                    <dt>White blood cell</dt>
+                    <dd>A cell of the immune system that helps the body fight infection and disease. B cells and T cells are both types of white blood cell.</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Conditions</h3>
+                    <ul class="footer-links">
+                        <li><a href="conditions.html?q=Rheumatoid%20Arthritis">Rheumatoid Arthritis</a></li>
+                        <li><a href="conditions.html?q=Lupus">Lupus</a></li>
+                        <li><a href="conditions.html?q=Multiple%20Sclerosis">Multiple Sclerosis</a></li>
+                        <li><a href="conditions.html?q=Crohn">Crohn's Disease</a></li>
+                        <li><a href="conditions.html?q=Psoriasis">Psoriasis</a></li>
+                        <li><a href="conditions.html">All conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="symptoms-guide.html">Symptoms Guide</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                        <li><a href="resources.html#patient-advocacy">Patient Advocacy</a></li>
+                        <li><a href="resources.html#financial-aid">Financial Aid</a></li>
+                        <li><a href="resources.html#mental-health">Mental Health</a></li>
+                        <li><a href="resources.html#clinical-trials">Clinical Trials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Our Mission</a></li>
+                        <li><a href="editorial-policy.html">Editorial Policy</a></li>
+                        <li><a href="about.html#disclaimer">Medical Disclaimer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 deciphering autoimmune. All rights reserved. Produced by Gwop.
+                    <a href="https://medium.com/@johnegemole_1671" target="_blank" rel="noopener noreferrer"
+                        aria-label="Medium Profile"
+                        style="display: inline-flex; align-items: center; margin-left: 0.5rem; vertical-align: middle;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            style="opacity: 0.7; transition: opacity 0.2s;">
+                            <path
+                                d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disease Detail Modal -->
+    <div class="modal-overlay" id="disease-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modal-title">Condition Name</h2>
+                <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- 1. One-sentence Summary -->
+                <div class="modal-section"
+                    style="background-color: var(--off-white); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--gasoline-green);">
+                    <p id="modal-summary"
+                        style="margin-bottom: 0; font-weight: 500; font-size: 1.1rem; color: var(--dark-charcoal);"></p>
+                </div>
+
+                <!-- 2. What Is This Condition? -->
+                <div class="modal-section">
+                    <h3>What Is This Condition?</h3>
+                    <div id="modal-description"></div>
+                </div>
+
+                <!-- 3. Common Symptoms -->
+                <div class="modal-section">
+                    <h3>Common Symptoms</h3>
+                    <ul id="modal-symptoms" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 4. What Causes It? -->
+                <div class="modal-section">
+                    <h3>What Causes It?</h3>
+                    <div id="modal-causes"></div>
+                </div>
+
+                <!-- 6. How Is It Diagnosed? -->
+                <div class="modal-section">
+                    <h3>How Is It Diagnosed?</h3>
+                    <ul id="modal-diagnosis" style="padding-left: 1.5rem;"></ul>
+                </div>
+
+                <!-- 7. Treatment & Management -->
+                <div class="modal-section">
+                    <h3>Treatment & Management</h3>
+                    <div id="modal-treatment"></div>
+                </div>
+
+                <!-- 8. Living With the Condition -->
+                <div class="modal-section">
+                    <h3>Living With the Condition</h3>
+                    <div id="modal-living"></div>
+                </div>
+
+                <!-- 9. When to Seek Medical Help -->
+                <div class="modal-section">
+                    <h3>When to Seek Medical Help</h3>
+                    <div id="modal-help" class="medical-callout medical-callout--warning">
+                    </div>
+                </div>
+
+                <!-- 10. Related Conditions -->
+                <div class="modal-section">
+                    <h3>Related Autoimmune Conditions</h3>
+                    <ul id="modal-related" style="padding-left: 1.5rem;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -49,7 +49,7 @@
     --neuro-muted: #EDE7F6;
 
     /* Dermatological (Dusty Rose) */
-    --derma-accent: #BC6C78;
+    --derma-accent: #A8505E;
     --derma-muted: #FFF0F3;
 
     /* Cardiovascular (Muted Terracotta) */
@@ -57,7 +57,7 @@
     --cardio-muted: #FFEBEE;
 
     /* Ocular (Muted Teal) */
-    --ocular-accent: #45858C;
+    --ocular-accent: #3C7A81;
     --ocular-muted: #E0F7FA;
 
     /* Layout System Variables */
@@ -695,7 +695,7 @@ header.scrolled {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: var(--light-grey);
+    color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -1027,7 +1027,7 @@ header.scrolled {
 
 /* Dark mode adjustments */
 [data-theme="dark"] .about-page-content {
-    background: var(--dark-charcoal);
+    background: var(--off-white);
 }
 
 [data-theme="dark"] .disclaimer-box {
@@ -1041,7 +1041,7 @@ header.scrolled {
 }
 
 [data-theme="dark"] .contact-item a {
-    color: var(--pure-white);
+    color: var(--dark-charcoal);
 }
 
 [data-theme="dark"] .contact-item a:hover {
@@ -1929,7 +1929,7 @@ header {
 
 /* Placeholder items for resources that are not published yet */
 .coming-soon {
-    color: var(--accent-grey);
+    color: var(--dark-grey);
     font-style: italic;
     cursor: default;
 }
@@ -1937,4 +1937,56 @@ header {
 /* Page title on the contact page (kept visually the same as an h2) */
 .about-content .page-title {
     font-size: 2rem;
+}
+
+/* ==========================================================
+   Dark mode contrast fixes
+   In dark mode --dark-charcoal is the light text colour and
+   --pure-white is a dark card colour, so rules that used them
+   as "background" / "white text" ended up inverted.
+   ========================================================== */
+[data-theme="dark"] .hero p {
+    color: var(--off-white);
+}
+
+[data-theme="dark"] .symptom-tag {
+    color: #edf2f7;
+}
+
+[data-theme="dark"] .newsletter-section,
+[data-theme="dark"] .newsletter-content h2,
+[data-theme="dark"] .newsletter-content p {
+    color: #1a202c;
+}
+
+[data-theme="dark"] .newsletter-form button {
+    background-color: #1a202c;
+    color: #f7fafc;
+}
+
+[data-theme="dark"] .newsletter-form button:hover {
+    background-color: #000;
+}
+
+[data-theme="dark"] footer {
+    background-color: #111827;
+    color: #f7fafc;
+    border-top: 1px solid #4a5568;
+}
+
+[data-theme="dark"] .footer-column h3 {
+    color: #f7fafc;
+}
+
+[data-theme="dark"] .footer-links a {
+    color: #cbd5e0;
+}
+
+[data-theme="dark"] .footer-links a:hover {
+    color: var(--gasoline-green-light);
+}
+
+[data-theme="dark"] .copyright {
+    color: #a0aec0;
+    border-top-color: #4a5568;
 }
